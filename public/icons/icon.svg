@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Water drop silhouette -->
+  <path d="M256 16 C256 16 64 224 64 320 C64 426 148 480 256 480 C364 480 448 426 448 320 C448 224 256 16 256 16Z" fill="#1B6B93"/>
+  <!-- AB text -->
+  <text x="256" y="360" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="140" fill="white">AB</text>
+</svg>
