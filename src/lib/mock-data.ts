@@ -28,31 +28,31 @@ const DEMO_USER_ID = 'auth-user-demo'
 // 25 Families
 // ---------------------------------------------------------------------------
 const familii: Familie[] = [
-  { id: fid(1),  user_id: ADMIN_USER_ID, nume: 'Iliescu Ioan',       email: 'ioan.iliescu@email.ro',    telefon: '0722100001', serie_apometru: 'AP-001', activ: true,  rol: 'admin' },
-  { id: fid(2),  user_id: DEMO_USER_ID,  nume: 'Popescu Ion',        email: 'ion.popescu@email.ro',     telefon: '0722100002', serie_apometru: 'AP-002', activ: true,  rol: 'user' },
-  { id: fid(3),  user_id: null,           nume: 'Ionescu Maria',      email: 'maria.ionescu@email.ro',   telefon: '0722100003', serie_apometru: 'AP-003', activ: true,  rol: 'user' },
-  { id: fid(4),  user_id: null,           nume: 'Gheorghe Vasile',    email: 'vasile.gheorghe@email.ro', telefon: '0722100004', serie_apometru: 'AP-004', activ: true,  rol: 'user' },
-  { id: fid(5),  user_id: null,           nume: 'Radu Elena',         email: 'elena.radu@email.ro',      telefon: '0722100005', serie_apometru: 'AP-005', activ: true,  rol: 'user' },
-  { id: fid(6),  user_id: null,           nume: 'Stan Mihai',         email: 'mihai.stan@email.ro',      telefon: '0722100006', serie_apometru: 'AP-006', activ: true,  rol: 'user' },
-  { id: fid(7),  user_id: null,           nume: 'Popa Alexandru',     email: 'alex.popa@email.ro',       telefon: '0722100007', serie_apometru: 'AP-007', activ: true,  rol: 'user' },
-  { id: fid(8),  user_id: null,           nume: 'Stoica Ana',         email: 'ana.stoica@email.ro',      telefon: '0722100008', serie_apometru: 'AP-008', activ: true,  rol: 'user' },
-  { id: fid(9),  user_id: null,           nume: 'Dumitru George',     email: 'george.dumitru@email.ro',  telefon: '0722100009', serie_apometru: 'AP-009', activ: true,  rol: 'user' },
-  { id: fid(10), user_id: null,           nume: 'Barbu Cristina',     email: 'cristina.barbu@email.ro',  telefon: '0722100010', serie_apometru: 'AP-010', activ: true,  rol: 'user' },
-  { id: fid(11), user_id: null,           nume: 'Marin Florin',       email: 'florin.marin@email.ro',    telefon: '0722100011', serie_apometru: 'AP-011', activ: true,  rol: 'user' },
-  { id: fid(12), user_id: null,           nume: 'Tudor Andreea',      email: 'andreea.tudor@email.ro',   telefon: '0722100012', serie_apometru: 'AP-012', activ: true,  rol: 'user' },
-  { id: fid(13), user_id: null,           nume: 'Moldovan Petru',     email: 'petru.moldovan@email.ro',  telefon: '0722100013', serie_apometru: 'AP-013', activ: true,  rol: 'user' },
-  { id: fid(14), user_id: null,           nume: 'Nistor Raluca',      email: 'raluca.nistor@email.ro',   telefon: '0722100014', serie_apometru: 'AP-014', activ: true,  rol: 'user' },
-  { id: fid(15), user_id: null,           nume: 'Cosma Bogdan',       email: 'bogdan.cosma@email.ro',    telefon: '0722100015', serie_apometru: 'AP-015', activ: true,  rol: 'user' },
-  { id: fid(16), user_id: null,           nume: 'Lazar Simona',       email: 'simona.lazar@email.ro',    telefon: '0722100016', serie_apometru: 'AP-016', activ: true,  rol: 'user' },
-  { id: fid(17), user_id: null,           nume: 'Matei Dragos',       email: 'dragos.matei@email.ro',    telefon: '0722100017', serie_apometru: 'AP-017', activ: true,  rol: 'user' },
-  { id: fid(18), user_id: null,           nume: 'Ciobanu Ioana',     email: 'ioana.ciobanu@email.ro',   telefon: '0722100018', serie_apometru: 'AP-018', activ: true,  rol: 'user' },
-  { id: fid(19), user_id: null,           nume: 'Szabo Attila',       email: 'attila.szabo@email.ro',    telefon: '0722100019', serie_apometru: 'AP-019', activ: true,  rol: 'user' },
-  { id: fid(20), user_id: null,           nume: 'Rus Ovidiu',         email: 'ovidiu.rus@email.ro',      telefon: '0722100020', serie_apometru: 'AP-020', activ: true,  rol: 'user' },
-  { id: fid(21), user_id: null,           nume: 'Muntean Lavinia',    email: 'lavinia.muntean@email.ro', telefon: '0722100021', serie_apometru: 'AP-021', activ: true,  rol: 'user' },
-  { id: fid(22), user_id: null,           nume: 'Suciu Dan',          email: 'dan.suciu@email.ro',       telefon: '0722100022', serie_apometru: 'AP-022', activ: true,  rol: 'user' },
-  { id: fid(23), user_id: null,           nume: 'Crisan Adriana',     email: 'adriana.crisan@email.ro',  telefon: '0722100023', serie_apometru: 'AP-023', activ: true,  rol: 'user' },
-  { id: fid(24), user_id: null,           nume: 'Sabau Liviu',        email: 'liviu.sabau@email.ro',     telefon: '0722100024', serie_apometru: 'AP-024', activ: false, rol: 'user' },
-  { id: fid(25), user_id: null,           nume: 'Olar Gabriela',      email: 'gabriela.olar@email.ro',   telefon: '0722100025', serie_apometru: 'AP-025', activ: true,  rol: 'user' },
+  { id: fid(1),  user_id: null,           nume: 'Corbu Ciprian',       email: 'ciprian.corbu@email.ro',        telefon: '0722100001', serie_apometru: '21BA456842',    activ: true,  rol: 'user' },
+  { id: fid(2),  user_id: null,           nume: 'Dorofte Florin',      email: 'florin.dorofte@email.ro',       telefon: '0722100002', serie_apometru: '112032063',     activ: true,  rol: 'user' },
+  { id: fid(3),  user_id: null,           nume: 'Iliescu Ctin',        email: 'ctin.iliescu@email.ro',         telefon: '0722100003', serie_apometru: 'AP-003',        activ: true,  rol: 'user' },
+  { id: fid(4),  user_id: null,           nume: 'Iliescu Titi',        email: 'titi.iliescu@email.ro',         telefon: '0722100004', serie_apometru: '116134064',     activ: true,  rol: 'user' },
+  { id: fid(5),  user_id: ADMIN_USER_ID,  nume: 'Iliescu Ioan',        email: 'ioan.iliescu@email.ro',         telefon: '0722100005', serie_apometru: '112032062',     activ: true,  rol: 'admin' },
+  { id: fid(6),  user_id: null,           nume: 'Pintilie Mihai',      email: 'mihai.pintilie@email.ro',       telefon: '0722100006', serie_apometru: '112032205',     activ: true,  rol: 'user' },
+  { id: fid(7),  user_id: null,           nume: 'Serban Iurie',        email: 'iurie.serban@email.ro',         telefon: '0722100007', serie_apometru: '112032217',     activ: true,  rol: 'user' },
+  { id: fid(8),  user_id: null,           nume: 'Gorie Mihai',         email: 'mihai.gorie@email.ro',          telefon: '0722100008', serie_apometru: '115184804',     activ: true,  rol: 'user' },
+  { id: fid(9),  user_id: null,           nume: 'Petru Lupu',          email: 'petru.lupu@email.ro',           telefon: '0722100009', serie_apometru: '115202645',     activ: true,  rol: 'user' },
+  { id: fid(10), user_id: DEMO_USER_ID,   nume: 'Dulan Daniel',        email: 'daniel_dulan@yahoo.com',        telefon: '0722100010', serie_apometru: 'AP-010',        activ: true,  rol: 'user' },
+  { id: fid(11), user_id: null,           nume: 'Sucila Valeriu',      email: 'valeriu.sucila@email.ro',       telefon: '0722100011', serie_apometru: '116314479',     activ: true,  rol: 'user' },
+  { id: fid(12), user_id: null,           nume: 'Ciprian Serban',      email: 'ciprian.serban@email.ro',       telefon: '0722100012', serie_apometru: '117512984',     activ: true,  rol: 'user' },
+  { id: fid(13), user_id: null,           nume: 'Marius Mancea',       email: 'marius.mancea@email.ro',        telefon: '0722100013', serie_apometru: 'AP-013',        activ: true,  rol: 'user' },
+  { id: fid(14), user_id: null,           nume: 'Herciu Gabriela',     email: 'gabriela.herciu@email.ro',      telefon: '0722100014', serie_apometru: 'AP-014',        activ: true,  rol: 'user' },
+  { id: fid(15), user_id: null,           nume: 'Astefculese Igor',    email: 'igor.astefculese@email.ro',     telefon: '0722100015', serie_apometru: '117BA497643',   activ: true,  rol: 'user' },
+  { id: fid(16), user_id: null,           nume: 'Chiriac Marius',      email: 'marius.chiriac@email.ro',       telefon: '0722100016', serie_apometru: 'AP-016',        activ: true,  rol: 'user' },
+  { id: fid(17), user_id: null,           nume: 'Fam. Rosca',          email: 'familia.rosca@email.ro',        telefon: '0722100017', serie_apometru: 'AP-017',        activ: true,  rol: 'user' },
+  { id: fid(18), user_id: null,           nume: 'Boicu Marian',        email: 'marian.boicu@email.ro',         telefon: '0722100018', serie_apometru: 'AP-018',        activ: true,  rol: 'user' },
+  { id: fid(19), user_id: null,           nume: 'Opria Roxana',        email: 'roxana.opria@email.ro',         telefon: '0722100019', serie_apometru: 'AP-019',        activ: true,  rol: 'user' },
+  { id: fid(20), user_id: null,           nume: 'Cristina Mocanu',     email: 'cristina.mocanu@email.ro',      telefon: '0722100020', serie_apometru: 'AP-020',        activ: true,  rol: 'user' },
+  { id: fid(21), user_id: null,           nume: 'Tamas Stefan',        email: 'stefan.tamas@email.ro',         telefon: '0722100021', serie_apometru: 'AP-021',        activ: true,  rol: 'user' },
+  { id: fid(22), user_id: null,           nume: 'Turcu Stefan',        email: 'stefan.turcu@email.ro',         telefon: '0722100022', serie_apometru: 'I20BA207822',   activ: true,  rol: 'user' },
+  { id: fid(23), user_id: null,           nume: 'Davidoaia Cozmin',    email: 'cozmin.davidoaia@email.ro',     telefon: '0722100023', serie_apometru: 'AP-023',        activ: true,  rol: 'user' },
+  { id: fid(24), user_id: null,           nume: 'Gavril George',       email: 'george.gavril@email.ro',        telefon: '0722100024', serie_apometru: 'AP-024',        activ: true,  rol: 'user' },
+  { id: fid(25), user_id: null,           nume: 'Andra Bostanaru',     email: 'andra.bostanaru@email.ro',      telefon: '0722100025', serie_apometru: 'AP-025',        activ: true,  rol: 'user' },
 ]
 
 // ---------------------------------------------------------------------------
@@ -263,12 +263,12 @@ export function getMockRepartizari(familieId?: string): Repartizare[] {
 export const DEMO_ADMIN = {
   email: 'ioan.iliescu@email.ro',
   password: 'demo1234',
-  familieId: fid(1),
+  familieId: fid(5),
 } as const
 
 /** Demo regular user credentials */
 export const DEMO_USER = {
-  email: 'ion.popescu@email.ro',
+  email: 'daniel_dulan@yahoo.com',
   password: 'demo1234',
-  familieId: fid(2),
+  familieId: fid(10),
 } as const
